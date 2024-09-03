@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    background: #DCDCDC ;
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+#cabecalho{
+    background-color: #FFA07A;
+    text-align: center;
+    padding-bottom: 20px;
+    border: 1px solid black;
+    border-top: none;
+}
+
+#principal{
+    width: 1080px;
+    background: #C0C0C0;
+    margin: 0 auto;
+    padding: 30px; 
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    
+}
+
+.corpo{
+    border: 3px solid black;
+    background:#F5F5F5 ;
+    padding: 20px;
+    margin-bottom: 30px;
+
+}
+
+.esq{
+    float: left;
+    width: 420px;
+    height: 420px;
+}
+
+.center_banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+/* LINKS CABEÇALHO */
+a:link, a:visited{
+    color:#000080;
+    text-decoration: none;
+    border:   4px inset black;
+    display: inline;
+    padding: 5px;
+}
+
+a:hover{
+    color: #FFF;
+    background:#FF4500 ;
+    padding: 5px;
+}
+/*-----------------------*/
+
+.clear{
+    clear: both;
+}
+
+.space{
+    padding-top: 15px;
+}
+
+.video{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display:block;
+    margin: 0 auto;
+
+}
+
+
+
+
+
